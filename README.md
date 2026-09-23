@@ -1,4 +1,4 @@
-# 🤖 AI Text Processing Workflow
+#  AI Text Processing Workflow
 
 **An intelligent, end-to-end automation system that turns raw text into actionable insights - powered by OpenAI, orchestrated by n8n, and delivered straight to your inbox.**
 
@@ -10,17 +10,17 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project demonstrates a **production-style automation pipeline** that collects text (or a URL) from a user, processes it with AI, stores the results, and notifies the user by email - all without manual intervention.
 
 It's built to showcase how a lightweight **FastAPI backend**, a **no-code automation layer (n8n)**, and **OpenAI's language models** can work together to deliver a real, usable product in a matter of hours.
 
-> 💡 **Use case:** Article/document summarization, content triage, research note-taking, customer feedback analysis - anywhere raw text needs to become a clean, structured summary.
+>  **Use case:** Article/document summarization, content triage, research note-taking, customer feedback analysis - anywhere raw text needs to become a clean, structured summary.
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```
 ┌─────────────┐      ┌──────────────────┐      ┌───────────────┐
@@ -52,21 +52,21 @@ It's built to showcase how a lightweight **FastAPI backend**, a **no-code automa
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Description |
 |---|---|
-| 🧠 **AI Summarization** | Generates a clear 2–4 sentence summary using GPT-4o-mini |
-| 📌 **Key Point Extraction** | Pulls out 3 concise key points from any text |
-| 🔗 **URL Support** | Accepts a URL instead of raw text (bonus endpoint) |
-| 🗂️ **Automatic Logging** | Every request is saved to Google Sheets with a timestamp |
-| 📧 **Instant Notification** | Users get an email the moment processing completes |
-| 🆔 **Session Tracking** | Each request gets a unique session ID for traceability |
-| ⚡ **Async & Fast** | Built on FastAPI for high-performance, non-blocking requests |
+|  **AI Summarization** | Generates a clear 2–4 sentence summary using GPT-4o-mini |
+|  **Key Point Extraction** | Pulls out 3 concise key points from any text |
+|  **URL Support** | Accepts a URL instead of raw text (bonus endpoint) |
+|  **Automatic Logging** | Every request is saved to Google Sheets with a timestamp |
+|  **Instant Notification** | Users get an email the moment processing completes |
+|  **Session Tracking** | Each request gets a unique session ID for traceability |
+|  **Async & Fast** | Built on FastAPI for high-performance, non-blocking requests |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -79,7 +79,7 @@ It's built to showcase how a lightweight **FastAPI backend**, a **no-code automa
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -94,7 +94,7 @@ project/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -103,7 +103,7 @@ project/
 - An OpenAI API key (or n8n's built-in AI credits)
 - A Google account (for Sheets + Gmail integration)
 
-### 1️⃣ Backend Setup
+###  Backend Setup
 
 ```bash
 # Navigate to the backend directory
@@ -132,7 +132,7 @@ Start the server:
 uvicorn main:app --reload --port 8000
 ```
 
-### 2️⃣ Frontend Setup
+###  Frontend Setup
 
 Open `frontend/index.html` and set the API base URL:
 
@@ -142,7 +142,7 @@ const API_BASE = 'http://localhost:8000';
 
 Then simply open the file in your browser.
 
-### 3️⃣ n8n Workflow Setup
+###  n8n Workflow Setup
 
 1. Log in to [n8n Cloud](https://app.n8n.cloud).
 2. Go to **Workflows → Import from File** and select `workflow.json`.
@@ -178,7 +178,7 @@ Session ID | Email | Original Text | Summary | Key Points | Timestamp
 
 ---
 
-## 📋 API Reference
+## API Reference
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -207,7 +207,7 @@ Session ID | Email | Original Text | Summary | Key Points | Timestamp
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 | Problem | Solution |
 |---|---|
@@ -219,7 +219,7 @@ Session ID | Email | Original Text | Summary | Key Points | Timestamp
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Add support for PDF/document uploads
 - [ ] Multi-language summarization
@@ -228,15 +228,15 @@ Session ID | Email | Original Text | Summary | Key Points | Timestamp
 
 ---
 
-## 📄 License
+## License
 
 This project is open-sourced under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+##  Author
 
 **Delowar**
 n8n Instance: `delowarcse63.app.n8n.cloud`
 
-⭐ If you find this project useful, consider giving it a star!
+ If you find this project useful, consider giving it a star!
