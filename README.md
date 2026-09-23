@@ -1,6 +1,6 @@
 # 🤖 AI Text Processing Workflow
 
-**An intelligent, end-to-end automation system that turns raw text into actionable insights — powered by OpenAI, orchestrated by n8n, and delivered straight to your inbox.**
+**An intelligent, end-to-end automation system that turns raw text into actionable insights - powered by OpenAI, orchestrated by n8n, and delivered straight to your inbox.**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -12,11 +12,11 @@
 
 ## 📖 Overview
 
-This project demonstrates a **production-style automation pipeline** that collects text (or a URL) from a user, processes it with AI, stores the results, and notifies the user by email — all without manual intervention.
+This project demonstrates a **production-style automation pipeline** that collects text (or a URL) from a user, processes it with AI, stores the results, and notifies the user by email - all without manual intervention.
 
 It's built to showcase how a lightweight **FastAPI backend**, a **no-code automation layer (n8n)**, and **OpenAI's language models** can work together to deliver a real, usable product in a matter of hours.
 
-> 💡 **Use case:** Article/document summarization, content triage, research note-taking, customer feedback analysis — anywhere raw text needs to become a clean, structured summary.
+> 💡 **Use case:** Article/document summarization, content triage, research note-taking, customer feedback analysis - anywhere raw text needs to become a clean, structured summary.
 
 ---
 
